@@ -1,12 +1,13 @@
 body{
     display: flex ; 
     justify-content: center;
+    align-items: center;
 }
 article{
     display: flex ; 
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    
     width: 300px;
     background-color: #B6E601;
     color:#e63922;
@@ -15,6 +16,8 @@ img{
     display: flex ; 
     width: 200px;
     justify-content: flex-end;
+    border: 5px solid #e63922 ;
+    border-radius: 10px;
 }
 h1{
     display: flex ; 
@@ -25,11 +28,27 @@ p{
     font-family: "Inter",serif;
 }
 button:nth-child(1){
-    color:#e63922;
+    color:#1001e6;
     background: #E6D800;
     border: 3px solid #54E600;
     border-radius: 10px;
 }
 button:nth-child(1):hover{
+    color: #e63922;
     background: #B6E601;
+}
+button:nth-child(2){
+    color:#1001e6;
+    background: #54E600;
+    border: 3px solid #E6D800;
+    border-radius: 10px;
+}
+button:nth-child(2):hover{
+    color: #e63922;
+    background: #B6E601;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
