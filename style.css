@@ -1,0 +1,35 @@
+body{
+    display: flex ; 
+    justify-content: center;
+}
+article{
+    display: flex ; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    background-color: #B6E601;
+    color:#e63922;
+}
+img{
+    display: flex ; 
+    width: 200px;
+    justify-content: flex-end;
+}
+h1{
+    display: flex ; 
+    font-family: "Agbalumo",serif;
+    justify-content: center;
+}
+p{
+    font-family: "Inter",serif;
+}
+button:nth-child(1){
+    color:#e63922;
+    background: #E6D800;
+    border: 3px solid #54E600;
+    border-radius: 10px;
+}
+button:nth-child(1):hover{
+    background: #B6E601;
+}
