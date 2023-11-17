@@ -2,6 +2,7 @@ body{
     display: flex ; 
     justify-content: center;
     align-items: center;
+    height: 930px;
 }
 article{
     display: flex ; 
@@ -9,52 +10,46 @@ article{
     align-items: center;
     
     width: 300px;
-    background-color: #B6E601;
-    color:#e63922;
+    background-color: #6BE3B3;
+    color:#E18CE1;
 }
 img{
     display: flex ; 
     width: 190px;
     justify-content: flex-end;
-    border: 5px solid #e63922 ;
+    border: 5px solid #E18CE1 ;
     border-radius: 10px;
 }
 h1{
-    transition-property: opacity, transform;
-    font-family: "Agbalumo variant0", Tofu;
-    font-weight: 400;
-    font-style: normal;
-    font-stretch: normal;
-    font-optical-sizing: auto;
-    line-height: initial;
-    opacity: 1;
-    transition-duration: 350ms;
+    display: flex;
+    justify-content: center;
+    font-family: "Agbalumo";
 }
 p{
     font-size: 1.2em;
     text-align: center;
     margin: 16px;
-    font-family: "Inter",serif;
+    font-family: "Inter variant0", sans-serif;
 }
 button:nth-child(1){
-    color:#1001e6;
-    background: #E6D800;
-    border: 3px solid #54E600;
+    color:#6BE3B3;
+    background: #98CC60;
+    border: 3px solid #E18CE1;
     border-radius: 10px;
 }
 button:nth-child(1):hover{
-    color: #e63922;
-    background: #B6E601;
+    color: #E18CE1;
+    background: #6BE3B3;
 }
 button:nth-child(2){
-    color:#1001e6;
-    background: #54E600;
-    border: 3px solid #E6D800;
+    color:#6BE3B3;
+    background: #E18CE1;
+    border: 3px solid #98CC60;
     border-radius: 10px;
 }
 button:nth-child(2):hover{
-    color: #e63922;
-    background: #B6E601;
+    color: #E18CE1;
+    background: #6BE3B3;
 }
 footer{
     margin-bottom: 10px;
@@ -62,4 +57,7 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+button{
+    padding: 8px;
 }
